@@ -1,8 +1,8 @@
 
-i = 1
+def hello(name):
+    print("Hello "+ name)
+name = input("What is your name? ")
+hello(name)
 
-while i < 11:
-    print(i)
-    i += 1
 
 
