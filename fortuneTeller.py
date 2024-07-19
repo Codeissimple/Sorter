@@ -18,6 +18,4 @@ def fortuneTeller(answerNumber):
         return("Outlook not so good")
     elif answerNumber == 9:
         return("Very doubtful")
-r = random.randint(1,9)
-fortune = fortuneTeller(r)
-print(fortune)
+print(fortuneTeller(random.randint(1,9)))
