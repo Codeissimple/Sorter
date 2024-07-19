@@ -1,11 +1,8 @@
 #guessing the number game
 import random
 
-number = random.randint(1,20)
-guess = int(input("Guess the number I'm thinking of, between 1 to 20"))
-if guess != int:
-    print('wrong inut type, enter number /n')
+secretNumber = random.randint(1,20)
+print("I'm thinking of a number between 1 and 20")
 
-while guess != number:
-    print("Sorry, you didn't guess")
-    guess = int(input("try again"))
+# Ask the player to guess 6 times
+for guessesTaken in range(1,7):
